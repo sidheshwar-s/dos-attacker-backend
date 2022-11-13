@@ -14,7 +14,7 @@ const validateSchemes = () => [
 const validate = (req, res, next) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-        logger.error('[product]: validation error');
+        logger.error('[attack]: validation error');
         return res.status(422).json({
             errors: errors.array(),
         });

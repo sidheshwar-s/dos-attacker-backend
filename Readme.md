@@ -10,7 +10,7 @@ docker-compose up -d
 
 **URL** : `/attack`
 
-**Method** : `PUT`
+**Method** : `POST`
 
 ```json
 {
